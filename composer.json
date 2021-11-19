@@ -1,0 +1,18 @@
+{
+    "name": "pudongping/hyperf-json-rpc-demo-interface",
+    "description": "hyperf-json-rpc-demo 服务提供者和服务消费者公用的接口",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pudongping",
+            "email": "276558492@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pudongping\\JsonRpc\\": "./src"
+        }
+    },
+    "require": {}
+}
